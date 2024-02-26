@@ -1,0 +1,7 @@
+run energy
+basis 6-31g
+charge 0
+spinmult 1
+method camb3lyp
+coordinates server_2024-02-26-09.53.29/job_16/geom.xyz
+scrdir	server_2024-02-26-09.53.29/job_16/scr
