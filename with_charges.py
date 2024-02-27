@@ -26,7 +26,7 @@ with TCPBClient(host=sys.argv[1], port=int(sys.argv[2])) as client:
         "restricted": True,
         "method": "camb3lyp",
         "basis": "6-31g",
-        "pointcharges" : "charges.txt"
+        "pointcharges" : "charges.xyz"
     }
     #   calculation
     result = client.compute_job_sync("energy", geom, "angstrom", **options)
